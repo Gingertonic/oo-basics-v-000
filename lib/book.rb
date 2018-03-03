@@ -7,5 +7,6 @@ class Book
 
   def turn_page
     @current_page += 1
+    puts "Flipping the page...wow, you read fast!"
   end
 end
